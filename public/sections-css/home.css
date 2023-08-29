@@ -1,0 +1,71 @@
+#logo {
+  display: block;
+}
+
+#nav-main-mobile #logo {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+nav.visible {
+  display: block;
+}
+
+#home-content {
+  gap: 6rem;
+}
+
+#home-content div:nth-child(1) {
+  max-width: 46rem;
+}
+
+h1 {
+  font-family: var(--playfair-font);
+  font-size: 4.8rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 3.72rem;
+  margin-bottom: 1.5rem;
+}
+
+#texts {
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 2.28rem; /* 22.8px */
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  width: 20.4rem;
+  height: 6.5rem;
+  margin: auto;
+
+  border-radius: 5rem;
+  background-color: transparent;
+  border-color: var(--font-20);
+}
+
+#btn-text {
+  text-align: center;
+  font-family: var(--playfair-font);
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--font-70);
+}
+
+button #btn-svg > img {
+  width: 3rem;
+  height: 3rem;
+}

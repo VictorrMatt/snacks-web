@@ -1,0 +1,268 @@
+{
+	"FATIADOS": [
+		[
+			"FATIADO DE CUPIM (Baião, Queijo Vinagrete Macaxeira)",
+			"FATIADOS",
+			"R$ 23,00",
+			"https://cdn.smartpos.app/product/20440335?lastUpdate=2023-08-28T00:34:14.594Z"
+		],
+		[
+			"FATIADO DE CONTRA FILÉ (Baião, Queijo Vinagrete Macaxeira)",
+			"FATIADOS",
+			"R$ 23,00",
+			"https://cdn.smartpos.app/product/20440404?lastUpdate=2023-08-28T00:41:46.962Z"
+		],
+		[
+			"FATIADO DE CARNE DE SOL (Baião, Queijo Vinagrete Macheira)",
+			"FATIADOS",
+			"R$ 23,00",
+			"https://cdn.smartpos.app/product/20440499?lastUpdate=2023-08-24T21:32:01.099Z"
+		]
+	],
+	"ESPETINHOS": [
+		[
+			"ESPETINHO SIMPLES CUPIM",
+			"ESPETINHOS",
+			"R$ 8,00",
+			"https://cdn.smartpos.app/product/19213574?lastUpdate=2023-08-27T01:39:11.675Z"
+		],
+		[
+			"ESPETINHO SIMPLES FRANGO COM BACON",
+			"ESPETINHOS",
+			"R$ 7,00",
+			"https://cdn.smartpos.app/product/19483589?lastUpdate=2023-08-12T23:27:56.036Z"
+		],
+		[
+			"ESPETINHO COMPLETO",
+			"ESPETINHOS",
+			"R$ 15,00",
+			"https://cdn.smartpos.app/product/19213622?lastUpdate=2023-08-28T00:34:03.828Z"
+		],
+		[
+			"ESPETINHO SIMPLES CORAÇÃO",
+			"ESPETINHOS",
+			"R$ 7,00",
+			"https://cdn.smartpos.app/product/19483670?lastUpdate=2023-08-25T18:42:05.124Z"
+		]
+	],
+	"PETISCOS": [
+		[
+			"BATATA SIMPLES",
+			"PETISCOS",
+			"R$ 14,00",
+			"https://cdn.smartpos.app/product/19214688?lastUpdate=2023-08-28T00:33:55.162Z"
+		],
+		[
+			"BATATA COM BACON E CHEDDAR",
+			"PETISCOS",
+			"R$ 17,00",
+			"https://cdn.smartpos.app/product/19214755?lastUpdate=2023-08-27T01:46:37.306Z"
+		],
+		[
+			"TRIPA",
+			"PETISCOS",
+			"R$ 27,00",
+			"https://cdn.smartpos.app/product/19214663?lastUpdate=2023-08-27T22:26:06.578Z"
+		],
+		[
+			"MEIO DA ASA",
+			"PETISCOS",
+			"R$ 20,00",
+			"https://cdn.smartpos.app/product/19214783?lastUpdate=2023-08-26T17:04:26.751Z"
+		],
+		[
+			"TRIO DA CASA",
+			"PETISCOS",
+			"R$ 26,00",
+			"https://cdn.smartpos.app/product/19214643?lastUpdate=2023-08-25T14:31:25.514Z"
+		],
+		[
+			"CALABRESA COM FRITAS",
+			"PETISCOS",
+			"R$ 24,00",
+			"https://cdn.smartpos.app/product/19214593?lastUpdate=2023-08-25T14:31:05.631Z"
+		],
+		[
+			"CARNE DE SOL COM FRITAS",
+			"PETISCOS",
+			"R$ 28,00",
+			"https://cdn.smartpos.app/product/19214525?lastUpdate=2023-08-26T02:22:17.179Z"
+		],
+		[
+			"FILE COM FRITAS",
+			"PETISCOS",
+			"R$ 33,00",
+			"https://cdn.smartpos.app/product/19214462?lastUpdate=2023-08-26T11:18:11.859Z"
+		],
+		[
+			"FIGADO ACEBOLADO (FAROFA+VINAGRETE)",
+			"PETISCOS",
+			"R$ 18,00",
+			"https://cdn.smartpos.app/product/23750063?lastUpdate=2023-08-26T22:21:47.629Z"
+		],
+		[
+			"QUEIJO COM MELAÇO",
+			"PETISCOS",
+			"R$ 8,00",
+			"https://cdn.smartpos.app/product/21098417?lastUpdate=2023-07-22T23:31:58.639Z"
+		]
+	],
+	"SALGADINHOS": [
+		[
+			"AMENDOIM MENDORATO 27 G",
+			"SALGADINHOS",
+			"R$ 1,00",
+			"https://cdn.smartpos.app/product/24039848?lastUpdate=2023-08-13T14:20:23.250Z"
+		]
+	],
+	"BEBIDAS": [
+		[
+			"CAJUÍNA 1 LT PET",
+			"BEBIDAS",
+			"R$ 8,00",
+			"https://cdn.smartpos.app/product/23254976?lastUpdate=2023-08-28T00:34:03.929Z"
+		],
+		[
+			"COCA COLA LATA 350 ML",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/19214883?lastUpdate=2023-08-27T16:47:26.650Z"
+		],
+		[
+			"COCA COLA ZERO LATA 350 ML",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/19509277?lastUpdate=2023-08-27T16:03:13.739Z"
+		],
+		[
+			"FANTA LATA",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/19214910?lastUpdate=2023-07-31T00:42:54.183Z"
+		],
+		[
+			"GUARANÁ KUAT 1 LT PET",
+			"BEBIDAS",
+			"R$ 7,50",
+			"https://cdn.smartpos.app/product/25830365?lastUpdate=2023-07-30T00:04:09.056Z"
+		],
+		[
+			"GUARANÁ KUAT LATA 350 ML",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/25830293?lastUpdate=2023-06-29T21:58:39Z"
+		],
+		[
+			"GUARANÁ LATA 350 ML",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/19214933?lastUpdate=2023-08-18T21:59:51.604Z"
+		],
+		[
+			"H2O",
+			"BEBIDAS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215298?lastUpdate=2023-08-26T17:04:41.683Z"
+		],
+		[
+			"PACOTE GELO 4 KL",
+			"BEBIDAS",
+			"R$ 8,00",
+			"https://cdn.smartpos.app/product/23947030?lastUpdate=2023-03-25T22:41:41.126Z"
+		],
+		[
+			"SCHWEPPES LATA 350 ML",
+			"BEBIDAS",
+			"R$ 6,00",
+			"https://cdn.smartpos.app/product/19214977?lastUpdate=2023-08-19T17:30:07.078Z"
+		],
+		[
+			"SPRITE LATA 350 ML",
+			"BEBIDAS",
+			"R$ 4,50",
+			"https://cdn.smartpos.app/product/25830329?lastUpdate=2023-08-18T22:13:40.234Z"
+		]
+	],
+	"REFEIÇÃO": [
+		[
+			"PORÇÃO BAIÃO (SERVE 1 PESSOA)",
+			"REFEIÇÃO",
+			"R$ 5,00",
+			"https://cdn.smartpos.app/product/21096320?lastUpdate=2023-08-20T18:43:23.759Z"
+		],
+		[
+			"PORÇÃO BAIÃO (SERVE 2 PESSOAS)",
+			"REFEIÇÃO",
+			"R$ 10,00",
+			"https://cdn.smartpos.app/product/19298062?lastUpdate=2023-08-26T17:05:00.934Z"
+		],
+		[
+			"PORÇÃO DE FAROFA",
+			"REFEIÇÃO",
+			"R$ 2,00",
+			"https://cdn.smartpos.app/product/22443338?lastUpdate=2023-08-19T00:08:08.851Z"
+		],
+		[
+			"PORÇÃO MACAXEIRA",
+			"REFEIÇÃO",
+			"R$ 5,00",
+			"https://cdn.smartpos.app/product/20474145?lastUpdate=2023-08-20T22:27:32.035Z"
+		],
+		[
+			"PORÇÃO OVOS MEXIDOS",
+			"REFEIÇÃO",
+			"R$ 5,00",
+			"https://cdn.smartpos.app/product/23684206?lastUpdate=2023-04-08T17:05:33.271Z"
+		],
+		[
+			"REFEIÇÃO BUCHADA",
+			"REFEIÇÃO",
+			"R$ 30,00",
+			"https://cdn.smartpos.app/product/19414648?lastUpdate=2023-08-27T16:47:25.686Z"
+		],
+		[
+			"REFEIÇÃO FEIJOADA COMERCIAL",
+			"REFEIÇÃO",
+			"R$ 45,00",
+			"https://cdn.smartpos.app/product/19287448?lastUpdate=2023-08-19T17:30:32.239Z"
+		],
+		[
+			"REFEIÇÃO FEIJOADA INDIVIDUAL",
+			"REFEIÇÃO",
+			"R$ 20,00",
+			"https://cdn.smartpos.app/product/19287481?lastUpdate=2023-08-20T18:44:57.734Z"
+		]
+	],
+	"SUCOS": [
+		[
+			"SUCO DE ACEROLA",
+			"SUCOS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215340?lastUpdate=2023-08-11T01:23:38.288Z"
+		],
+		[
+			"SUCO DE CACAU",
+			"SUCOS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215425?lastUpdate=2023-06-18T00:59:57.471Z"
+		],
+		[
+			"SUCO DE CUPUAÇU",
+			"SUCOS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215449?lastUpdate=2023-08-25T15:11:02.648Z"
+		],
+		[
+			"SUCO DE GOIABA",
+			"SUCOS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215393?lastUpdate=2023-08-25T00:04:49.173Z"
+		],
+		[
+			"SUCO DE MARACUJÁ",
+			"SUCOS",
+			"R$ 5,50",
+			"https://cdn.smartpos.app/product/19215362?lastUpdate=2023-08-27T18:31:44.140Z"
+		]
+	]
+}
