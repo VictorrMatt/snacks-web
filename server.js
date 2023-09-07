@@ -8,22 +8,23 @@ app.use(express.json());
 app.use(express.static(__dirname + "/public"));
 
 const staticProducts = require("./public/products/products.json");
-let apiData = "";
+let apiData = null; // Initialize to null since data hasn't been fetched yet
 
 async function fetchApiData() {
-  if (!apiData) {
-    try {
-      const response = await fetch(
-        "https://snacks-api.onrender.com/v1/snacks/products"
-      );
-      apiData = await response.json();
-      return apiData;
-    } catch (error) {
-      console.error("Erro ao consultar a API:", error);
-      return null;
-    }
+  try {
+    const response = await fetch(
+      "https://snacks-api.onrender.com/v1/snacks/products"
+    );
+    apiData = await response.json();
+    console.log("Produtos recebidos via API.");
+  } catch (error) {
+    console.error("Erro ao consultar a API:", error);
+    apiData = null; // Set to null in case of an error
   }
 }
+
+// Fetch data from the API when the server starts
+fetchApiData();
 
 async function getPageContentAndStyle(route, stylePath, homeContent = false) {
   const base = await fs.readFile(path.join(__dirname, "index.html"), "utf-8");
@@ -57,16 +58,11 @@ app.get("/", async (req, res) => {
 });
 
 app.get("/catalog", async (req, res) => {
-  await fetchApiData();
-  let formatedHtml = "";
+  // Check if apiData is available, if not, use staticProducts
+  const productsData = apiData || staticProducts;
 
-  if (!apiData) {
-    formatedHtml = products.estructureHtmlFromProductsData(staticProducts);
-    console.log("Utilizando produtos temporarios.");
-  } else {
-    formatedHtml = products.estructureHtmlFromProductsData(apiData);
-    console.log("Produtos recebidos via API.");
-  }
+  // Format HTML using the selected data
+  const formatedHtml = products.estructureHtmlFromProductsData(productsData);
 
   let catalogContent = await getPageContentAndStyle(
     "/catalog",

@@ -1,7 +1,6 @@
 let productsList = document.querySelectorAll("#products-list ul");
 let categoriesList = document.querySelectorAll(".category");
 
-// TOGGLE MOBILE NAV
 /* This function toggles the "visible" class on a list of HTML elements, effectively showing or hiding them. The list of targeted elements includes the menu button, close button, main content, navigation list, navigation bar, mobile navigation, logo, image credits in the footer, and a "developed by" section. */
 function toggleVisibleClass() {
   let tags = [
@@ -16,10 +15,15 @@ function toggleVisibleClass() {
     "#developed-by",
   ];
 
-  for (let each of tags) {
-    let element = document.querySelector(each);
-    if (element) {
-      element.classList.toggle("visible");
+  let widthOfWindow = window.innerWidth;
+  let heightOfWindow = window.innerHeight;
+
+  if (widthOfWindow < 1024) {
+    for (let each of tags) {
+      let element = document.querySelector(each);
+      if (element) {
+        element.classList.toggle("visible");
+      }
     }
   }
 }
@@ -119,7 +123,20 @@ function toggleBackground() {
   })`;
 }
 
+// ANIMATIOINS
+function putAnimations() {
+  let tags = ["main", ".image-credits", "#developed-by"];
+
+  for (let each of tags) {
+    let element = document.querySelector(each);
+    if (element) {
+      element.classList.add("fade-in");
+    }
+  }
+}
+
 // EXECUTE
 /* The last two lines of code call toggleBackground() and toggleBetweenSectionsActives() functions, presumably to set the initial background and active section based on the main content section ID. */
 toggleBackground();
 toggleBetweenSectionsActives();
+putAnimations();

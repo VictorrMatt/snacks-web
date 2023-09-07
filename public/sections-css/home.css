@@ -2,6 +2,10 @@
   display: block;
 }
 
+#home-content {
+  margin: auto 0 auto 0;
+}
+
 #nav-main-mobile #logo {
   display: flex;
 }
@@ -19,6 +23,7 @@ nav.visible {
 
 #home-content {
   gap: 6rem;
+  align-items: center;
 }
 
 #home-content div:nth-child(1) {
@@ -68,4 +73,15 @@ button {
 button #btn-svg > img {
   width: 3rem;
   height: 3rem;
+}
+
+@media (min-width: 768px) {
+  #home-content {
+    align-items: flex-start;
+    gap: 18.4rem;
+  }
+
+  button {
+    margin: 0;
+  }
 }

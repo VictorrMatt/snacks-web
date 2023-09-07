@@ -1,6 +1,6 @@
 #products-content {
   gap: 1rem;
-  height: 51.5rem;
+  height: clamp(51.5rem, 46vw, 62.5rem);
 }
 
 #products-content div:nth-child(1) {
@@ -65,7 +65,7 @@
 }
 
 .product-name {
-  width: 18ch;
+  width: clamp(18ch, 35vw, 53ch);
   overflow: hidden;
 }
 
@@ -103,4 +103,19 @@
 .product-name-value {
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 935px) {
+  #products-content {
+    align-items: center;
+  }
+
+  #categories-list ul {
+    justify-content: center;
+  }
+
+  #products-list {
+    width: 87.2rem;
+  }
+
 }

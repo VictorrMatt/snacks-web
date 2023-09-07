@@ -1,5 +1,6 @@
 #contact-content {
   gap: 2rem;
+  margin: auto 0 auto 0;
 }
 
 #contact-content h2 {
@@ -78,14 +79,56 @@
 
 #developed-by {
   display: none;
+  opacity: 0;
 }
 
 #developed-by.visible {
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
 footer {
   padding-top: 1.5rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  #image-address img {
+    max-height: max-content;
+    border-radius: 2rem 0 0 2rem;
+  }
+
+  #holder {
+    display: flex;
+    height: 50.7rem;
+    margin: auto;
+    gap: 0.5rem;
+  }
+
+  #map {
+    height: 100%;
+  }
+
+  #map iframe {
+    border-radius: 0 2rem 2rem 0;
+  }
+
+  #holder div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #holder {
+    width: 87.2rem;
+  }
+
+  #contact-content {
+    margin: 0 0 auto 0;
+  }
 }

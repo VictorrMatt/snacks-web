@@ -88,7 +88,8 @@ body {
 }
 
 main {
-  margin: auto 0 auto 0;
+  margin: 0 0 auto 0;
+  opacity: 0;
 }
 
 #nav-menu {
@@ -144,7 +145,7 @@ main,
 footer,
 nav {
   height: min-content;
-  padding: 0 3rem;
+  padding: 0 clamp(3rem, 10vw, 24.9rem);
   flex-direction: column;
 }
 
@@ -155,10 +156,10 @@ img {
 
 footer {
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   padding-bottom: 2rem;
   margin-top: auto;
 }
@@ -192,4 +193,66 @@ footer {
 .author a {
   font-weight: 900;
   color: var(--font-70);
+}
+
+@media (min-width: 425px) {
+  body nav {
+    padding: 2rem clamp(3rem, 15vw, 24.9rem) 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  #nav-main-mobile li > a {
+    font-size: 2rem;
+  }
+
+  #menu-button,
+  #close-button {
+    display: none;
+  }
+
+  #sections {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  #nav-main-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #logo {
+    display: flex;
+  }
+
+  footer .image-credits {
+    visibility: visible;
+    display: flex;
+  }
+
+  .image-credits,
+  #developed-by div:nth-child(1) {
+    text-align: left;
+  }
+}
+
+/* ANIMATIONS */
+.fade-in {
+  animation: fadeIn 700ms;
+  animation-fill-mode: forwards;
+  animation-delay: 200ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.image-credits {
+  opacity: 0;
 }
