@@ -91,4 +91,4 @@ app.get("/contact", async (req, res) => {
   res.send(contactContent);
 });
 
-app.listen(process.env.PORT || 3000);
+app.listen(3000);
