@@ -137,7 +137,8 @@ body nav.visible {
   font-weight: 700;
 }
 
-.nav-svg svg {
+.nav-svg svg,
+button {
   cursor: pointer;
 }
 
@@ -193,6 +194,24 @@ footer {
 .author a {
   font-weight: 900;
   color: var(--font-70);
+}
+
+/* EFFECTS */
+button,
+li,
+a,
+path {
+  transition: color 300ms, background-color 300ms, fill-opacity 300ms;
+}
+
+#sections a:hover,
+a:hover {
+  fill-opacity: 1;
+  color: white;
+}
+
+svg:hover path {
+  fill-opacity: 1;
 }
 
 @media (min-width: 425px) {

@@ -70,9 +70,21 @@ button {
   color: var(--font-70);
 }
 
-button #btn-svg > img {
+button #btn-svg > svg {
   width: 3rem;
   height: 3rem;
+}
+
+button:hover {
+  background-color: var(--font-20);
+}
+
+button:hover > #btn-text {
+  color: white;
+}
+
+button:hover > #btn-svg svg path {
+  fill-opacity: 1;
 }
 
 @media (min-width: 768px) {

@@ -105,6 +105,14 @@
   justify-content: space-between;
 }
 
+#categories-list li:hover {
+  background-color: var(--font-20);
+}
+
+#categories-list li:hover > p {
+  color: white;
+}
+
 @media (min-width: 935px) {
   #products-content {
     align-items: center;
